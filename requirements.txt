@@ -4,3 +4,10 @@ keras==2.15.0
 numpy
 scikit-learn
 pillow
+streamlit
+tensorflow
+numpy
+pandas
+scikit-learn
+pillow
+h5py
