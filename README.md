@@ -1,5 +1,7 @@
 # 🏦 Customer Churn Prediction Using Machine Learning
 
+---
+
 ## 🔗 Live Demo
 
 **Try the Application Here:**
