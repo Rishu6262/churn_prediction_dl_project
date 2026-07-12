@@ -31,6 +31,39 @@ This project enhanced my practical understanding of predictive analytics and bus
 
 ---
 
+# ❓ Problem Statement
+
+Customer retention is one of the biggest challenges for banks.
+
+Acquiring a new customer is significantly more expensive than retaining an existing one. If organizations can identify customers who are at risk of leaving, they can provide personalized offers, discounts, better customer support, or financial advice to improve customer satisfaction.
+
+The objective of this project is to develop a Machine Learning classification model capable of identifying customers who are likely to leave the bank.
+
+The final model helps support data-driven business decisions by predicting customer churn before it occurs.
+
+---
+
+# 🏢 Business Use Case
+
+Banks and financial institutions manage millions of customers every year.
+
+Losing valuable customers directly affects business revenue and long-term growth.
+
+Using Machine Learning predictions, banks can:
+
+- Identify high-risk customers.
+- Improve customer satisfaction.
+- Reduce customer churn.
+- Increase customer loyalty.
+- Design personalized retention campaigns.
+- Improve business decision-making.
+- Reduce customer acquisition costs.
+- Increase long-term profitability.
+
+Customer churn prediction has become an essential business intelligence application in the banking sector.
+
+---
+
 # 🚀 Project Objectives
 
 * Predict whether a customer will churn.
