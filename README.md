@@ -204,3 +204,217 @@ It helps determine whether customer behavior differs across demographic groups.
 Customer age is one of the most important predictors.
 
 Older and younger customers often exhibit different banking behaviors.
+### Tenure
+
+Tenure represents the number of years a customer has maintained a relationship with the bank. Customers with longer tenures often show greater trust and loyalty, while newer customers may have a higher probability of switching to another bank.
+
+---
+
+### Balance
+
+Balance indicates the amount of money available in the customer's bank account. It provides insight into customer engagement and financial activity. Customers with very high or very low balances may exhibit different churn patterns.
+
+---
+
+### Number of Products
+
+This feature represents the total number of banking products owned by the customer, such as savings accounts, loans, insurance, or credit cards. Customers using multiple banking services are generally less likely to leave.
+
+---
+
+### Has Credit Card
+
+This feature indicates whether the customer owns a credit card.
+
+- **1 = Yes**
+- **0 = No**
+
+Credit card ownership helps analyze customer engagement with banking services.
+
+---
+
+### Active Member
+
+This feature shows whether the customer actively uses banking services.
+
+- **1 = Active Customer**
+- **0 = Inactive Customer**
+
+Active customers usually have a lower probability of churn than inactive customers.
+
+---
+
+### Estimated Salary
+
+Estimated annual salary provides information about the customer's income level. Salary can influence financial behavior, product usage, and customer retention.
+
+---
+
+### Exited (Target Variable)
+
+This is the target variable used for prediction.
+
+- **0 → Customer Stayed**
+- **1 → Customer Left the Bank**
+
+The primary goal of this project is to accurately predict this value using Machine Learning.
+
+---
+
+# 🛠️ Technology Stack
+
+The project is developed using the following technologies:
+
+### Programming Language
+
+- Python
+
+### Data Analysis
+
+- Pandas
+- NumPy
+
+### Data Visualization
+
+- Matplotlib
+- Seaborn
+
+### Machine Learning
+
+- Scikit-Learn
+
+### Model Serialization
+
+- Joblib
+
+### Web Framework
+
+- Streamlit
+
+### Version Control
+
+- Git
+- GitHub
+
+---
+
+# 📚 Python Libraries Used
+
+| Library | Purpose |
+|----------|---------|
+| Pandas | Data manipulation and analysis |
+| NumPy | Numerical computations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Scikit-Learn | Machine Learning algorithms |
+| Joblib | Save and load trained models |
+| Streamlit | Interactive web application |
+
+---
+
+# 📂 Project Structure
+
+```text
+Customer_Churn_Prediction/
+│
+├── app.py
+├── model.pkl
+├── Churn_Modelling.csv
+├── requirements.txt
+├── README.md
+│
+├── notebooks/
+│   └── Customer_Churn_Prediction.ipynb
+│
+└── assets/
+    └── screenshots/
+```
+
+---
+
+# ⚙️ Project Workflow
+
+The project follows a complete Machine Learning pipeline.
+
+```
+Data Collection
+        │
+        ▼
+Data Understanding
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Feature Encoding
+        │
+        ▼
+Feature Scaling
+        │
+        ▼
+Train-Test Split
+        │
+        ▼
+Model Training
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Best Model Selection
+        │
+        ▼
+Model Saving
+        │
+        ▼
+Streamlit Deployment
+        │
+        ▼
+Real-Time Prediction
+```
+
+---
+
+# 🔄 Machine Learning Pipeline
+
+The project follows these major steps:
+
+### Step 1: Data Collection
+
+The customer churn dataset is collected in CSV format and loaded into a Pandas DataFrame.
+
+### Step 2: Data Understanding
+
+The dataset is explored to understand its structure, feature types, missing values, and target distribution.
+
+### Step 3: Data Cleaning
+
+The dataset is checked for missing values, duplicate records, and inconsistencies to ensure high-quality data before model training.
+
+### Step 4: Exploratory Data Analysis (EDA)
+
+Different statistical analyses and visualizations are performed to identify patterns, relationships, and customer behavior.
+
+### Step 5: Feature Engineering
+
+Categorical features are encoded into numerical values, and relevant transformations are applied to improve model performance.
+
+### Step 6: Model Training
+
+Multiple Machine Learning classification algorithms are trained and compared using the processed dataset.
+
+### Step 7: Model Evaluation
+
+Each model is evaluated using standard classification metrics to identify the best-performing algorithm.
+
+### Step 8: Deployment
+
+The selected model is integrated into a Streamlit web application, enabling users to make predictions through a simple graphical interface.
+
+---
