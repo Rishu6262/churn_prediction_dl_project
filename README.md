@@ -353,6 +353,44 @@ The prediction is generated instantly using the trained Machine Learning model.
 
 ---
 
+# 🔄 Machine Learning Pipeline
+
+The project follows these major steps:
+
+### Step 1: Data Collection
+
+The customer churn dataset is collected in CSV format and loaded into a Pandas DataFrame.
+
+### Step 2: Data Understanding
+
+The dataset is explored to understand its structure, feature types, missing values, and target distribution.
+
+### Step 3: Data Cleaning
+
+The dataset is checked for missing values, duplicate records, and inconsistencies to ensure high-quality data before model training.
+
+### Step 4: Exploratory Data Analysis (EDA)
+
+Different statistical analyses and visualizations are performed to identify patterns, relationships, and customer behavior.
+
+### Step 5: Feature Engineering
+
+Categorical features are encoded into numerical values, and relevant transformations are applied to improve model performance.
+
+### Step 6: Model Training
+
+Multiple Machine Learning classification algorithms are trained and compared using the processed dataset.
+
+### Step 7: Model Evaluation
+
+Each model is evaluated using standard classification metrics to identify the best-performing algorithm.
+
+### Step 8: Deployment
+
+The selected model is integrated into a Streamlit web application, enabling users to make predictions through a simple graphical interface.
+
+---
+
 # ▶️ Installation Guide
 
 ### Clone Repository
